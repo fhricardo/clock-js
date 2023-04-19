@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+/**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, gray, #fafafa)
+}
+
+main {
+
+    width: 640px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #444444;
+    border: 10px solid #242424;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.50);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hour,
+.minute,
+.second {
+    width: 160px;
+    height: 120px;
+    background-image: linear-gradient(to top, #ececec, #fafafa);
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Concert One', cursive;
+    font-size: 100px;
+    color: #242424;
+}
